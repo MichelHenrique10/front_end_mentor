@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: black;
+    font-family: 'Young Serif', serif;
+}
+
+h2,
+h4 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    
+}
