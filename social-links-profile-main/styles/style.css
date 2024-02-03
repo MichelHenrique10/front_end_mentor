@@ -1,0 +1,84 @@
+html {
+    background-color: hsl(0, 0%, 8%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    max-width: 1200px;
+    height: 75vh;
+    margin: 0 auto; 
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.container img {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.container h1 {
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 0.3rem;
+    font-size: 27px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.container .localization {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 1rem;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.container .destaque {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.container .links {
+    margin-top: 1rem;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    width: 90%;
+    padding: 0.7rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 576px) {
+    
+    .container {
+        width: 70%;
+        height: 50%;
+        padding: 2rem;
+    }
+
+}
+
+@media screen and (orientation: landscape) {
+    .container {
+        height: 70%;
+        width: 80%;
+    }
+}
